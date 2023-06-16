@@ -30,19 +30,17 @@ void app_main(void)
     char c = 0;
     char str[100];
     memset(str, 0, sizeof(str));
-
     while (1)
     {
+        c = getchar();
         if (c != 0xff)
         {
-            c = getchar();
             if (c != '\n')
             {
                 str[strlen(str)] = c;
-                printf("%c", c);
+                printf("%c\n", c);
                 reverse_dir();
             }
-            vTaskDelay(100 / portTICK_PERIOD_MS);
         }
         count();
     }
