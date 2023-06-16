@@ -1,8 +1,8 @@
 /*  
 	Nome: Davi Salomão Soares Corrêa
 	Matricula: 180118820
- 	Materia: Tópicos especiais em engenharia mecatrônica - T01
-  	Trabalho 01: contador delay com inversão do sentido de contagem
+ 	Matéria: Tópicos especiais em engenharia mecatrônica - T01
+  	Trabalho 1: contador delay com inversão do sentido de contagem
 */
 
 #include <stdio.h>
