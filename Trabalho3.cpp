@@ -16,11 +16,9 @@
 #include "esp_log.h"
 #include "esp32/rom/uart.h"
 
-/*
-    Segundo [3], para garantir que a linha completa seja impressa 
+/*  Segundo [3], para garantir que a linha completa seja impressa 
     antes de entrar no modo de suspensão, é necessário aguardar 
-    até que o FIFO de transmissão UART esteja vazio.
-*/
+    até que o FIFO de transmissão UART esteja vazio. */
 void uart_tx_wait_idle(int uart_num)
 {
     while (uart_tx_fifo_len(uart_num) > 0)
@@ -45,8 +43,8 @@ void app_main()
 
     /*  as variáveis, depois e antes, definidas no printf 
         não correspondem as variáveis, fim e inicio, definidas anteriormente. */
-    //printf("Modo sleep durou %lld milisegundos.\n", (depois - antes) / 1000);
     printf("Modo sleep durou %lld milisegundos.\n", (fim - inicio) / 1000);
+    //printf("Modo sleep durou %lld milisegundos.\n", (depois - antes) / 1000);
 }
 
 /* 
