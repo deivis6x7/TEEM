@@ -37,6 +37,6 @@ void app_main() {
 /* 
     Referências:
         [1] out_pin.cpp
-        [2] documentação ESP32/FreeRTOS
-        [3] código parcialmente construído em aula com Prof. Dr. Jones Yudi
+        [2] Documentação ESP32/FreeRTOS
+        [3] Código parcialmente construído em aula com Prof. Dr. Jones Yudi
 */
