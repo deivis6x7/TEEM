@@ -50,6 +50,6 @@ void app_main()
 /* 
     Referências:
         [1] sleep.c
-        [2] documentação ESP32/FreeRTOS
+        [2] Documentação ESP32/FreeRTOS
         [3] https://cpp.hotexamples.com/examples/-/-/esp_sleep_enable_timer_wakeup/cpp-esp_sleep_enable_timer_wakeup-function-examples.html
 */
