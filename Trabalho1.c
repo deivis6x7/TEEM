@@ -45,5 +45,5 @@ void app_main(void)
 /* 
    Referências:
    [1] serial_get.cpp
-   [2] Documentação ESP32/FreeRTOS
+   [2] Documentação: ESP32/FreeRTOS
 */
