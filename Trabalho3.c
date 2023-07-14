@@ -2,7 +2,7 @@
 	Nome: Davi Salomão Soares Corrêa
 	Matrícula: 180118820
  	Matéria: Tópicos especiais em engenharia mecatrônica - T01
-  	Trabalho 3: Análise do código sleep.c e proposta de solução
+  	Trabalho 03: Análise do código sleep.c e proposta de solução
 */
 
 #include <stdio.h>
