@@ -31,6 +31,6 @@ void app_main()
 /* 
     Referências:
         [1] sender_lora.c
-        [2] Documentação ESP32/FreeRTOS
+        [2] Documentação: ESP32/FreeRTOS
         [3] Biblioteca Lora: https://github.com/Inteform/esp32-lora-library
 */
