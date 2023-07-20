@@ -1,7 +1,7 @@
 /*
 	Nome(s): 
-      Davi Salomão Soares Corrêa, 180118820.
-      Thiago de Deus Lima Rocha,  190020300.
+      	Davi Salomão Soares Corrêa, 180118820.
+      	Thiago de Deus Lima Rocha,  190020300.
  	Matéria: Tópicos especiais em engenharia mecatrônica - T01
   	Trabalho 5: Comunicação sem fio entre ESP32-Lora (sender communication)
 */
