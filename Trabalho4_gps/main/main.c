@@ -1,3 +1,10 @@
+/*  
+	Nome: Davi Salomão Soares Corrêa
+	Matrícula: 180118820
+ 	Matéria: Tópicos especiais em engenharia mecatrônica - T01
+  Trabalho 04: Conexão do módulo GPS via comunicação serial 
+*/
+
 #include <stdio.h>
 #include "esp_log.h"
 #include "driver/uart.h"
@@ -44,3 +51,9 @@ void app_main(void)
     parseGPSMessage(incoming_message);
   }
 }
+
+/* 
+  Referências:
+    [1] serial_loop.c
+    [2] Documentação: ESP32/FreeRTOS
+*/
