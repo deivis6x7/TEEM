@@ -15,17 +15,17 @@
 
 #define RX_BUF_SIZE 1024
 
+char time[20];
+char latitude[20];
+char latitude_dir;
+char longitude[20];
+char longitude_dir;
+char pos;
+
 void parseGPSMessage(const char* message) {
-  char time[20];
-  char latitude[20];
-  char latitude_dir;
-  char longitude[20];
-  char longitude_dir;
-  char pos;
 
   sscanf(message, "$GPRMC,%10[^,],%c,%14[^,],%c, %14[^,], %c", time, &pos, latitude, &latitude_dir, longitude, &longitude_dir);
-  printf("Coordenadas do GPS:\n");
-  printf("-Tempo UTC:    %s\n", time);
+  printf("-Tempo:        %s\n", time);
   printf("-Latitude:  %c %s\n", latitude_dir, latitude);
   printf("-Longitude: %c %s\n", longitude_dir, longitude);
 }
